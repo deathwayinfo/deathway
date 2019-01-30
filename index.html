@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Death Way</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <![if !IE]>
+        <link rel="icon" href="https://cdn.discordapp.com/attachments/474302471984906250/500347475329024022/DeathWayLogo.png" type="image/x-icon" />
+        <![endif]>
+        <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/474302471984906250/500347475329024022/DeathWayLogo.png" type="image/ico" />
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Death Way</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Requirements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#buy">Buy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="send.php">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="text-white" style="background-image: url(../img/gameb.png); background-size: cover;">
+      <div class="container text-center bg">
+        <h1 style="text-shadow: 1px 1px #000000;">Death Way</h1>
+        <p class="lead" style="text-shadow: 1px 1px #000000;">A refreshing multiplayer survival game</p>
+        <!-- Horizontal Ruler -->
+        <hr>
+        <br><br><br>
+        <!-- Adding Paragraph -->
+        <p id="demo" style="font-size: 60px; text-shadow: 1px 1px #000000;"></p>
+<script>
+        //set date for count down
+        var countDownDate = new Date("Jan 9, 2019 19:00:00").getTime();
+        // update the counter down every 1 sec
+        var countDownFunction = setInterval(function(){
+        // get today date
+        var now = new Date().getTime();
+        // find distance btw now and countdown Date
+        var distance = countDownDate - now ;
+        // time calc for days, hours , minutes and seconds
+        var days = Math.floor(distance /(1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60 )) / (1000 * 60 ));
+        var seconds = Math.floor((distance % (1000 * 60)) / (1000 ));
+        //output the result in element demo
+        document.getElementById('demo').innerHTML = days + "D " + hours + "H " + minutes + "M " + seconds + "S ";
+        //if the count down is over , write some text
+        if(distance < 0) {
+          clearInterval(countDownFunction);
+          document.getElementById("demo").innerHTML = "Coming Soon";
+        }
+
+      }, 1000);
+
+  </script>
+        </div>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>About Death Way</h2>
+            <p class="lead">Death Way is a unique mupltiplayer survival experiences with:</p>
+            <ul>
+              <li>Massive hordes of Zombies</li>
+              <li>Incredible optimization</li>
+              <li>Unique gameplay</li>
+              <li>NoLag experience</li>
+              <li>Custom AntiCheat</li>
+              <li>Different Game Modes</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>PC Requirements</h2>
+            <li><b>OS: </b>32/64-bit Windows 7+, Mac OS, Linux</li>
+            <li><b>CPU: </b>Intel Core i3-2350m</li>
+            <li><b>GPU: </b>Nvida GeForce 430m</li>
+            <li><b>RAM: </b>4 GB</li>
+            <li><b>DirectX: </b>Version 10</li>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="buy">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Buy</h2>
+                  <div class="text-center">
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <input type="hidden" name="hosted_button_id" value="S7KQP9WD99EB6">
+                      <input type="hidden" name="on0" value="Cantidad de Keys">Cantidad de keys:
+                      <select name="os0">
+                        <option value="x1">x1 5,00€</option>
+                        <option value="x2">x2 9,50€</option>
+                        <option value="x3">x3 13,90€</option>
+                        <option value="x4">x4 18,25€</option>
+                        <option value="x6">x6 26,50€</option>
+                        <option value="x8">x8 34,90€</option>
+                      </select> </td></tr>
+                      <br><br>
+                    <input type="hidden" name="currency_code" value="EUR">
+                    <input type="image" src="https://www.paypalobjects.com/es_ES/i/btn/btn_buynow_LG.gif" border="0" width="180" name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+                  </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+<div class="container">
+<p class="m-0 text-center text-white">Copyright &copy; Death Way 2018</p>
+</div>
+<!-- /.container -->
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom JavaScript for this theme -->
+<script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
