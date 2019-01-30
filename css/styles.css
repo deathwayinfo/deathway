@@ -1,0 +1,14 @@
+body, html {
+
+}
+
+#demo {
+  font-weight: lighter;
+
+  word-spacing:  20px;
+}
+hr {
+  margin: auto;
+  width: 80%;
+  border: 1.5px solid #fff;
+}

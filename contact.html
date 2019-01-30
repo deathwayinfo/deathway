@@ -1,0 +1,45 @@
+<form name="form1" method="post" action="correo.php">
+<table>
+  <tr>
+    <th>Nombre:</th>
+    <td><input name="nombre" type="text" class="campo" id="nombre" size="60"></td>
+  </tr>
+  <tr>
+    <th>Tel&eacute;fono:</th>
+    <td><input name="telefono" type="text" class="campo" id="telefono" size="60"></td>
+  </tr>
+  <tr>
+    <th>Correo:</th>
+    <td><input name="correo" type="text" class="campo" id="correo" size="60"></td>
+  </tr>
+  <tr>
+    <th>Tipo de oferta: </th>
+    <td><input name="oferta" type="radio" value="individual">individual
+    <br><input name="oferta" type="radio" value="grupo">de grupo </td>
+  </tr>
+  <tr>
+    <th>Opciones:</th>
+    <td><input name="catalogo" type="checkbox" id="catalogo" value="si">Recibir cat&aacute;logo
+    <br><input name="informarme" type="checkbox" id="informarme" value="si">Informarme de otras ofertas</td>
+  </tr>
+  <tr>
+    <th>Procedencia:</th>
+    <td><select name="procedencia" class="campo" id="procedencia">
+      <option value="-"></option>
+      <option value="N">Norte</option>
+      <option value="C">Centro</option>
+      <option value="S">Sur</option>
+      <option value="E">Este</option>
+      <option value="O">Oeste</option>
+    </select></td>
+  </tr>
+  <tr>
+    <th>Observaciones:</th>
+    <td><textarea name="observaciones" cols="60" rows="10" class="campo" id="observaciones"></textarea></td>
+  </tr>
+</table>
+<p>
+  <input type="submit" value="Enviar">
+  <input type="reset" value="Restablecer">
+</p>
+</form>
